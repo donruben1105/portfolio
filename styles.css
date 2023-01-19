@@ -330,9 +330,6 @@ nav {
     justify-content: space-between;
     align-items: center;
   }
-  .toggle-theme {
-    display: block;
-  }
 }
 
 /* 
@@ -868,7 +865,7 @@ CONTACT
   background: var(--clr-font-2);
 }
 .social-icons h4 {
-  padding-top: 4rem;
+  display: none;
 }
 .social-icons-container {
   display: grid;
@@ -921,7 +918,7 @@ CONTACT
     background: transparent;
     padding: 0 5rem;
   }
-  .social-icons h4 {
+  #follow h4 {
     display: block;
     text-transform: none;
   }
