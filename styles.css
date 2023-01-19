@@ -58,25 +58,6 @@ Variables
   --max-width: 1280px;
   --fixed-width: 560px;
 }
-.light {
-  
-  /* white colors */
-  --clr-body-bcg: #fff;
-  --clr-body-bcg-2: #f5f6f7;
-  --clr-body-bcg-3: #f0f0f0;
-  /* black colors  */
-  --clr-font: #101114;
-  --clr-font-2: #191a1d;
-  --clr-font-3: #252525;
-  /* primary colors */
-  --clr-primary: #29648a;
-  --clr-secondary: #2e9cca;
-  --clr-tertiary: #e3f0f8;
-
-  /* shadows */
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
 /*
 ===============
 Global Styles
@@ -329,6 +310,9 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+  }
+  .toggle-theme {
+    display: block;
   }
 }
 
@@ -918,7 +902,7 @@ CONTACT
     background: transparent;
     padding: 0 5rem;
   }
-  #follow h4 {
+  .social-icons h4 {
     display: block;
     text-transform: none;
   }
