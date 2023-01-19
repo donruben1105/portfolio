@@ -970,19 +970,3 @@ CONTACT
   }
 }
 
-/* 
-======================
-FOOTER
-======================
-*/
-
-.footer {
-  background: var(--clr-black);
-  text-align: center;
-  padding: 0 1rem;
-}
-.footer-text {
-  color: var(--clr-grey-10);
-  /* line-height: 1; */
-  margin-bottom: 0;
-}
