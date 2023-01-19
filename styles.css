@@ -76,6 +76,7 @@ html {
 }
 
 body {
+  scroll-behavior: smooth;
   font-family: var(--ff-primary);
   background: var(--clr-body-bcg);
   color: var(--clr-font);
