@@ -26,7 +26,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-/* // ********** smooth scroll ************
+// ********** smooth scroll ************
 const scrollLinks = document.querySelectorAll('.scroll-link');
 
 scrollLinks.forEach((link) => {
@@ -50,6 +50,6 @@ scrollLinks.forEach((link) => {
     });
     sidebar.classList.remove('show-sidebar');
   });
-}); */
+});
 
 
