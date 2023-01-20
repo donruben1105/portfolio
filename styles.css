@@ -286,6 +286,7 @@ nav {
   letter-spacing: 2px;
   padding: 0.1rem 0;
   border-bottom: 2px solid transparent;
+  ;
 }
 .nav-link:hover {
   color: var(--clr-secondary);
@@ -305,11 +306,11 @@ nav {
     display: none;
   }
   .nav-links {
-    justify-self: center;
+    justify-self: end;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
   }
   .toggle-theme {
     display: block;
@@ -480,9 +481,7 @@ header {
     gap: 5rem;
     align-items: center;
   }
-  .hero-img {
-    display: block;
-  }
+
   .hero-info {
     text-align: left;
   }
