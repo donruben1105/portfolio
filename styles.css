@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&family=Source+Sans+Pro:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto&family=Source+Sans+Pro:ital@1&display=swap");
 
 /*
 ===============
@@ -45,8 +45,8 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: #eef3f7;
   /* font families */
-  --ff-primary: 'Roboto', sans-serif;
-  --ff-secondary: 'Source Sans Pro', sans-serif;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Source Sans Pro", sans-serif;
   /* transitions */
   --transition: all 0.3s linear;
   --long-transition: all 1s ease;
@@ -260,7 +260,7 @@ nav {
   font-size: 1.75rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 1px var(--clr-font);
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   /* align-self: center; */
   /* justify-self: center; */
   transition: var(--transition);
@@ -286,7 +286,6 @@ nav {
   letter-spacing: 2px;
   padding: 0.1rem 0;
   border-bottom: 2px solid transparent;
-  ;
 }
 .nav-link:hover {
   color: var(--clr-secondary);
@@ -424,13 +423,17 @@ HERO
 ======================
 */
 header {
-  background: var(--clr-body-bcg-2);
+  background: #eef3f7;
 }
 .banner {
   min-height: calc(100vh - 74px);
   display: grid;
   place-items: center;
   padding-bottom: 4rem;
+}
+.hero-img {
+  display: none;
+  width: 27rem;
 }
 .hero-info {
   text-align: center;
@@ -481,7 +484,9 @@ header {
     gap: 5rem;
     align-items: center;
   }
-
+  .hero-img {
+    display: block;
+  }
   .hero-info {
     text-align: left;
   }
@@ -589,7 +594,7 @@ ABOUT
     position: relative;
   }
   .about-img::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -10%;
     left: -10%;
@@ -733,7 +738,7 @@ PROJECTS
     box-shadow: var(--light-shadow);
   }
   .project-img::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -10%;
     left: -5%;
@@ -910,7 +915,6 @@ CONTACT
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
     row-gap: 0.5rem;
-    
   }
   .social-icon {
     font-size: 1.75rem;
@@ -937,4 +941,3 @@ CONTACT
     font-size: 1.2rem;
   }
 }
-
